@@ -161,15 +161,17 @@ h3 {
 }
 
 .fixedMsg>p {
-    display: flex;
-    flex-direction: column;
-    width: 30px;
     font-size: 12px;
     font-weight: 100;
     color: #e9fff9a8;
     position: fixed;
     right: 60px;
-    top: 61%;
+    top: 45%;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+.fixedMsg>p>img {
+    width: 20px;
 }
 /* the experience section*/
 .experience {
