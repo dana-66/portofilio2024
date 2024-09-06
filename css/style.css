@@ -150,7 +150,7 @@ h3 {
 }
 .aboutMe .img>img {
     width: 250px;
-    height: 350px;
+/*     height: 350px; */
     border-radius: 20%;
     margin-left: 50px;
     --s: 10px;
